@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad 1</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+
+      <div id="titulo">
+        <img id="logo" src="https://rolandocaldas.com/wp-content/uploads/2013/10/css3-html5-e1383236383597.png"
+        alt="Imangen de logo HTML5 Y CSS3 ">
+      </div>
+      <h1 id="Titulo-Principal">HTML - HyperText Markup Language</h1>
+    </header>
+    <section class="contenedor">
+      <article>
+        <p class="Texto_principal"> 
+          Es un lenguaje compuesto por un grupo de etiquetas definidas con un nombre rodeado de paréntesis angulares. Los paréntesis angulares delimitan 
+          la etiqueta y el nombre define el tipo de contenido que representa. Por ejemplo, la etiqueta 
+          <code>html</code>  indica que el contenido es código HTML.
+          <br>
+          <br>
+          Algunas de estas etiquetas son declaradas individualmente (por ejemplo,<code> br </code>  ) y otras son declaradas en pares, que incluyen una de 
+          apertura y otra de cierre, como <code>< html>< /html></code> (en la etiqueta de cierre el nombre va precedido por una barra invertida).
+          Las etiquetas individuales y las de apertura pueden incluir atributos para ofrecer información adicional acerca de sus contenidos (por ejemplo, <code>< html lang="es"></code>).
+          <br>
+          <br>
+          Las etiquetas individuales y la combinación de etiquetas de apertura y cierre se llaman elementos.
+          Los elementos compuestos por una sola etiqueta se usan para modificar el contenido que los rodea o incluir recursos externos, mientras que los elementos que incluyen 
+          etiquetas de apertura y cierre se utilizan para delimitar el contenido del documento.
+        </p>
+      </article>
+
+      <div>
+        <img id="img_principal" src="https://www.wallpapertip.com/wmimgs/31-312238_html-css-javascript-transparent.png"
+        alt="Imangen de HTML5, CSS3 y computadora ">
+      </div>
+        <br>
+        <br>
+      <form id="formulario" action="">
+        <h2 id="Titulo-Secundario">Formulario</h2>
+        <table class="table">  
+          <tr>
+            <td class="label">
+              <label for="mane">Nombre</label>
+            </td>
+            <td>
+              <input type="text"mame="name"class="caja" placeholder="Por ejemplo, Juan">
+            </td>
+          </tr>
+          <tr>
+            <td class="label">
+              <label for="apellido">Apellido</label>
+            </td>
+            <td>
+              <input type="text"mame="apellido"class="caja"placeholder="Por ejemplo, Perez">
+            </td>
+          </tr>
+          <tr>
+            <td class="label">
+              <label for="tipoCC">Tipo de documento</label>
+            </td>
+            <td>
+              <select name="tipoCC" id="tipoCC" class="caja">
+                <option class="option1" value=""></option>
+                <option class="option1" value="CC">CC</option>
+                <option class="option1" value="CE">CE</option>
+                <option class="option1" value="NIT">NIT</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td class="label">
+              <label for="NumeroCC">Numero de Identificacion</label>
+            </td>
+            <td>
+              <input type="cc-number"mame="NumeroCC"class="caja"placeholder="Por ejemplo, 1016031696">
+            </td>
+          </tr>
+          <tr>
+          <tr>
+            <td class="label">
+              <label for="tipoCC">Nivel educacion</label>
+            </td>
+            <td>
+              <select name="NivelE" id="NivelE" class="caja">
+                <option class="option1" value=""></option>
+                <option class="option1" value="Bachiller">Bachiller</option>
+                <option class="option1" value="Universidad">Universidad</option>
+                <option class="option1" value="Especializacion">Especializacion</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td class="label">
+              <label for="email">Email</label>
+            </td>
+            <td>
+              <input type="email" mame="email" class="caja" placeholder="Por ejemplo, juan@dominio.com">
+            </td>
+          </tr>
+          <tr>
+            <td class="label">
+              <label for="tel">Telefono</label>
+            </td>
+            <td>
+              <input type="tel"mame="tel"class="caja">
+            </td>          
+          </tr>
+          <tr>
+            <td>
+              <label for="archivo">Elige una foto de perfil:</label>
+            </td>
+            <td>
+              <input type="file"  name="archivo"accept="image/png, image/jpeg">
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" class="label">
+              <label for="tel">Acepta</label>
+              <input type="checkbox" name="">
+              <a href="">Terminos y condiciones</a>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" id="pie_tabla">
+              <input type="submit" name="Enviar" id="boton">
+            </td>
+          </tr>
+        </table>
+      </form>
+      <div>
+        <table id="Tablas_dos" border="" red 5px solid; >
+          <tr>
+            <th class="table_titulo">
+              Id
+            </th>
+            <th colspan="2" class="table_titulo">  
+              Nombres
+            </th >
+            <th class="table_titulo">  
+              Fecha
+            </th>
+          </tr>
+          <tr>
+            <th class="table_titulo">
+              1
+            </th>
+            <td>
+              Jhon 
+            </td>
+            <td>
+              Tellez
+            </td>
+            <td>
+              <input type="date" name="fecha">
+            </td>
+          </tr>
+          <tr>
+            <th class="table_titulo">
+              2
+            </th>
+            <td colspan="2">
+              Ana Lopez
+            </td>
+            <td>
+              <input type="date" name="fecha">
+            </td>
+          </tr>
+          <tr>
+            <th class="table_titulo">
+              3
+            </th>
+            <td>
+              Sofia
+            </td>
+            <td>
+              Torres
+            </td>
+            <td>
+              <input type="date" name="fecha">
+            </td>
+          </tr>
+        </table>
+      
+      </div>
+
+
+    </section>
+</body>
+</html>

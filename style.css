@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0.5em;
+    background-color: rgb(191, 230, 191);
+}
+header{
+    background-color: rgba(14, 207, 207, 0.514);
+    padding: 0.2%;
+    border-radius: 5px;
+}
+
+#Titulo-Principal{
+    font-size: 5em;
+    color: rgba(155, 155, 233, 0.596);
+    text-align:center;
+    font-family: 'Caveat', cursive;
+    background-color: transparent;
+}
+
+#logo{
+    width: 15em;
+    height: 10em;
+    float: left;
+    padding: 1.5em;
+    background-color: transparent;
+}
+
+#titulo{
+    margin: 0;
+    background-color: transparent;
+    float: left;
+}
+
+article{
+    height: 48%;
+    width: 48%;
+    float: left;
+}
+
+.Texto_principal{
+    font-size: 1.3em;
+    font-family: 'Indie Flower', cursive;
+}
+
+p{
+    padding: 1.4em;
+    text-align: justify;
+}
+
+
+#img_principal{
+    height: 48%;
+    width: 48%;
+    float: right;
+}
+
+
+form{
+    height: 49%;
+    width: 49%;
+    padding: 0.5em;
+    
+}
+
+
+
+#Titulo-Secundario{
+    font-size: 2em;
+    background-color: rgba(146, 235, 235, 0.514);
+    color: rgba(125, 125, 241, 0.596);
+    text-align:center;
+    border-radius: 5px;
+}    
+.table{
+    margin-left: 4.5em;
+    
+}
+
+#formulario{
+    font-size: 1.2em;
+    float: right;
+    
+        
+}
+
+.label{
+    text-align: left;
+    
+}
+
+#pie_tabla{
+    text-align:center;
+    height: 4em;
+}
+
+#boton{
+    font-size:0.7em;
+    font-family:Verdana,Helvetica;
+    font-weight:bold;
+    color:white;
+    background:#0071bc;
+    border:1em;
+    width:5em;
+    height:2em;
+    border-radius: 5px;
+}
+
+#boton:hover {
+    background: blue;
+    color:black;
+}
+.caja{
+    background:rgba(186, 206, 186, 0.774);
+    border-radius: 5px;
+    border: 0;
+    width:18em;
+    height:2em;
+    font-size: 0.7em;
+    font-weight: 700; 
+}
+.caja:hover{
+    background: blue;
+    color:rgb(240, 223, 223);
+    font-weight: 700; 
+}
+
+.option1{
+    color:black;
+}
+
+input[type=file]::-webkit-file-upload-button {
+    border: 1px solid blue;
+    background:#0071bc;
+    width: 11em;
+    height: 2.5em;
+    color: white;
+    border-radius: 15px;
+}
+
+#Tablas_dos{
+    background:#9dc3db;
+    padding: 1px;
+}
+.table_titulo{
+    background:#0071bc;
+
+}
